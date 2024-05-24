@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: #7b5af4;
-            font-family: 'times new roman', cursive, sans-serif;
+            font-family: 'times', cursive, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,7 +25,7 @@
         }
         .login-container h1 {
             color: #000000;
-            font-size: 30px;
+            font-size: 50px;
             margin-top: 1px;
             margin-bottom: 1px;
         }
@@ -76,6 +76,13 @@
         .login-container button:hover {
             background-color: #0021f4;
         }
+        .larik {
+            display: flex;
+            justify-content: center;
+            gap: 2px; 
+            text-shadow: 2px 3px 0px #d9c4cf;
+            font-family: 'Fredoka One', cursive;
+        }
     </style>
     <script>
         function signUp() {
@@ -88,7 +95,13 @@
     
     <div class="login-container">
         <h4>welcome</h4>
-        <h1>LARIK</h1>
+        <div class="larik">
+        <h1 style="transform: rotate(10deg);">L</h1>
+        <h1 style="transform: rotate(-10deg); color: #ffffff;">A</h1>
+        <h1 style="transform: rotate(10deg);">R</h1>
+        <h1 style="transform: rotate(-10deg); color: #ffffff;">I</h1>
+        <h1 style="transform: rotate(10deg);">K</h1>
+        </div>
         <p style="margin-top: 1px;">Study & Games</p>
         <form onsubmit="return showPopup()">
             <input type="text" name="username" placeholder="Username"><br>
@@ -100,4 +113,4 @@
     </div>
 
 </body>
-</html>
+</html> 
