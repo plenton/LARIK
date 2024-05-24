@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-LARIK</title>
+    <style>
+        body {
+            background-color: #9982ee;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #b534e0;
+            border: 3px solid #cf40cd;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px #ff69b4;
+            text-align: center;
+            width: 300px;
+        }
+        .login-container h1 {
+            color: #000000;
+            font-size: 30px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+        .login-container h4 {
+            color: #000000;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .login-container p {
+            color: #ffffff;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="text"], 
+        .login-container input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #ff69b4;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .login-container input[type="submit"] {
+            background-color: #e389eb;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        .login-container input[type="submit"]:hover {
+            background-color: #ff1493;
+        }
+        .login-container button {
+            background-color: #efc20d;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        .login-container button:hover {
+            background-color: #0021f4;
+        }
+    </style>
+    <script>
+        function signUp() {
+            alert("saat ini hanya tersedia login sebagai tamu");
+        }
+    </script>
+</head>
+<body>
+
+    
+    <div class="login-container">
+        <h4>welcome</h4>
+        <h1>LARIK</h1>
+        <p style="margin-top: 1px;">Study & Games</p>
+        <form onsubmit="return showPopup()">
+            <input type="text" name="username" placeholder="Username"><br>
+            <input type="password" name="password" placeholder="Password"><br>
+            <input onclick="signUp()" type="submit" value="Login"><br>
+            <span>belum memiliki akun?</span> <a href="" onclick="signUp()"> daftar disini</a>
+        </form>
+        <a href="dashboard.html"><button>Masuk Sebagai Tamu</button></a>
+    </div>
+
+</body>
+</html>

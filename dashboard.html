@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Dashboard - LARIK</title>
+    <style>
+        body {
+            background-color: #b534e0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #000000; /* warna teks hitam */
+        }
+        .dashboard-container {
+            background-color: #b534e0; /* warna latar belakang */
+            border: 3px solid #cf40cd;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px #ff69b4;
+            text-align: center;
+            width: 300px;
+        }
+        .dashboard-container button {
+            background-color: #efc20d;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            box-shadow: -10px 5px 10px rgb(193, 191, 168);
+        }
+        .dashboard-container h2 {
+            box-shadow: 5px 7px 10px blueviolet;
+            border-radius: 10px;
+            height: 40px;
+        }
+        .dashboard-container button:hover {
+            background-color: #0021f4;
+        }
+        .ikon {
+            width: 24px;
+            margin-left: 15px; 
+            justify-content: center; 
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCSGPizLUj0qfK89c99RZnOH-oWmV0S8_rw&s" style="width: 200px; box-shadow: 10px 5px 15px rgb(122, 69, 172) ;">
+        <H2 style="margin-top: 10px;">PERMAINAN<img style="width: 30px; margin-left: 5px;" src="https://cdn-icons-png.flaticon.com/128/2780/2780137.png"></H2>
+        <a href="Puzzle_geser.html"><button style="margin-bottom: 20px;"> <img class="ikon" style="margin-right: 3PX;" src="https://cdn-icons-png.flaticon.com/128/993/993686.png"> PUZZLE-GESER </button></a>
+        <a href="MAZE-GAME/LABIRIN.html"><button style="margin-bottom: 25px; margin-top: 1px;"> <img class="ikon" src="https://cdn-icons-png.flaticon.com/128/2241/2241301.png"> LABIRIN-GAME </button></a>
+        <H2>PENGETAHUAN <img src="https://cdn-icons-png.flaticon.com/128/3534/3534033.png" style="width: 30px; margin-left: 5px; margin-bottom: 10px;"></H2>
+        <a href="video_pengetahuan.html"><button style="margin-bottom: 8px;"> <img style="margin-right: 8px;" class="ikon" src="https://cdn-icons-png.flaticon.com/128/2696/2696537.png"> VIDEO EDUKASI </button></a>
+        <a href="materi_pengetahuan.html"><button> <img class="ikon" src="https://cdn-icons-png.flaticon.com/128/14511/14511273.png"> MATERI EDUKASI </button></a>
+    </div>
+</body>
+</html>
